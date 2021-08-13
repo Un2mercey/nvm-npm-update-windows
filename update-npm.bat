@@ -42,7 +42,6 @@ echo.
 echo ----------------------------
 echo install latest npm...
 echo ----------------------------
-echo.
 
 call node npm-cli.js i -g npm@latest
 IF ERRORLEVEL 1 (
